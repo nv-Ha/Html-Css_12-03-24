@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    inset: 0;
+}
+
+.main{
+    position: relative;
+    background-color: #FFFDAA;
+    height: 25rem;
+    width: 25rem;
+    margin: 100px auto;
+}
+
+.header{
+    background-color: #D4FDD5;
+    height: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    width: 24rem;
+    margin: 0.2rem 0 0 0.5rem;
+}
+
+.header > p {
+    color: #1745E0;
+    text-align: center;
+}
+
+.body{
+    margin-top: 1rem;
+}
+
+.lable_form {
+    margin-left: 40px;
+}
+
+.body > form >input, textarea, select {
+    float: right;
+    margin-right: 3rem;
+}
+
+#lop{
+    width: 10.6rem;
+}
+
+#diachi{
+    width: 10.3rem;
+}
+
+.btn{
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.btn_1{
+    margin-right: 2rem;
+}
